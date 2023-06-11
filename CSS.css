@@ -1,0 +1,108 @@
+.container
+{
+    text-align: center;
+    grid-template-columns: 10fr 5fr;
+    margin-top: 30px;
+}
+#timer 
+{
+    font-weight: bold;
+    border-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 1050px;
+    width: 300px;
+    height: 100px;
+    font-size: 70px;
+    background-color: aliceblue;
+}
+#MOVE 
+{
+    font-style: italic;
+    color: darkslategrey;
+    font-size: 50px;
+    margin-top: 65px;
+}
+#statement1 
+{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#statement2 
+{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#left
+{
+    float: left;
+    text-align: center;
+    margin-left: 24%;
+}
+#right
+{
+    float: left;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 150px;
+}
+.block 
+{
+    background-color: peachpuff;
+    border-color: peachpuff;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+
+}
+#HEADING 
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    animation-name: colorful;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorful 
+{
+    0%   {color: red;}
+    33%  {color: yellow;}
+    66%  {color: blue;}
+    100%  {color: green;}
+}
+#ANSWER
+{
+    text-align: center;
+    font-weight: bold;
+}
+#BUTT
+{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
